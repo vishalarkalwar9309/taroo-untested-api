@@ -20,3 +20,12 @@ if (require.main === module) {
 }
 
 module.exports = app;
+app.get("/", (req, res) => {
+  res.json({
+    message: "Task Manager API is running",
+    endpoints: {
+      tasks: "/tasks",
+      stats: "/tasks/stats",
+    },
+  });
+});

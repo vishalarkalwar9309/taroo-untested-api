@@ -1,3 +1,32 @@
+
+# Taroo Task API
+
+A RESTful Task Management API built with Node.js and Express.
+
+## Live API
+
+**Base URL:** https://taroo-untested-api.onrender.com
+
+### Available Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/tasks` | Get all tasks |
+| GET | `/tasks/stats` | Get task statistics |
+| POST | `/tasks` | Create a task |
+| PATCH | `/tasks/:id/assign` | Assign a task |
+| PATCH | `/tasks/:id` | Update a task |
+| DELETE | `/tasks/:id` | Delete a task |
+
+## Testing
+
+- Jest: 19 tests passing
+- Postman: API endpoints tested successfully
+- Deployment: Render
+
+
+
+
 # Task Manager API
 
 A small REST API for keeping track of tasks. I built this as the take-home assignment for Taroo's Full Stack Developer Intern role, focusing on tests, a couple of bug fixes, and the task-assignment endpoint.
